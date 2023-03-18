@@ -23,12 +23,11 @@ const modal = (props) => {
       }}
     >
       <div className="Modal">
-        <h1>
-          Today's Date :{" "}
+        <h2>
           {new Date().toLocaleString("en-US", {
             dateStyle: "full",
           })}
-        </h1>
+        </h2>
         <button className="Button" onClick={props.closed}>
           Close
         </button>
