@@ -7,4 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Framer Motion
 - React Transition Group
 
+Preview here [https://react-animate-sandev.netlify.app/](https://react-animate-sandev.netlify.app/)
+
 ### Happy Coding!
