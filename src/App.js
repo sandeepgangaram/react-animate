@@ -48,13 +48,19 @@ class App extends Component {
             <div
               style={{
                 backgroundColor: "red",
+                color: "whitesmoke",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 width: 100,
                 height: 100,
                 margin: "auto",
                 transition: "opacity 1s ease-out",
                 opacity: state === "exiting" ? 0 : 1,
               }}
-            ></div>
+            >
+              Hello World!
+            </div>
           )}
         </Transition>
         <Modal show={this.state.modalIsOpen} closed={this.closeModal} />
