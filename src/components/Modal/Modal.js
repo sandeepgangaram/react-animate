@@ -23,9 +23,14 @@ const modal = (props) => {
       }}
     >
       <div className="Modal">
-        <h1>A Modal</h1>
+        <h1>
+          Today's Date :{" "}
+          {new Date().toLocaleString("en-US", {
+            dateStyle: "full",
+          })}
+        </h1>
         <button className="Button" onClick={props.closed}>
-          Dismiss
+          Close
         </button>
       </div>
     </CSSTransition>
